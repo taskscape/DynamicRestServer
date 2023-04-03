@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dynamic.DAL\Dynamic.DAL.csproj" />
+    <ProjectReference Include="..\Static.DataAccess\Static.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

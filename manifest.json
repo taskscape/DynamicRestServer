@@ -1,0 +1,139 @@
+{
+	"id": "",
+	"acceptMappedClaims": null,
+	"accessTokenAcceptedVersion": null,
+	"addIns": [],
+	"allowPublicClient": null,
+	"appId": "",
+	"appRoles": [
+		{
+			"allowedMemberTypes": [
+				"User"
+			],
+			"description": "Guest role",
+			"displayName": "Guests",
+			"id": "",
+			"isEnabled": true,
+			"lang": null,
+			"origin": "Application",
+			"value": "Guest"
+		},
+		{
+			"allowedMemberTypes": [
+				"User"
+			],
+			"description": "User role",
+			"displayName": "Users",
+			"id": "",
+			"isEnabled": true,
+			"lang": null,
+			"origin": "Application",
+			"value": "User"
+		},
+		{
+			"allowedMemberTypes": [
+				"User"
+			],
+			"description": "Admin role",
+			"displayName": "Admins",
+			"id": "",
+			"isEnabled": true,
+			"lang": null,
+			"origin": "Application",
+			"value": "Admin"
+		}
+	],
+	"oauth2AllowUrlPathMatching": false,
+	"createdDateTime": "",
+	"disabledByMicrosoftStatus": null,
+	"groupMembershipClaims": "None",
+	"identifierUris": [
+		""
+	],
+	"informationalUrls": {
+		"termsOfService": null,
+		"support": null,
+		"privacy": null,
+		"marketing": null
+	},
+	"keyCredentials": [],
+	"knownClientApplications": [],
+	"logoUrl": null,
+	"logoutUrl": null,
+	"name": "DynamicApi",
+	"oauth2AllowIdTokenImplicitFlow": false,
+	"oauth2AllowImplicitFlow": false,
+	"oauth2Permissions": [
+		{
+			"adminConsentDescription": "Access API as user",
+			"adminConsentDisplayName": "Access API as user",
+			"id": "fc0d05c3-64b8-43c2-8e32-2a61521a6fc6",
+			"isEnabled": true,
+			"lang": null,
+			"origin": "Application",
+			"type": "User",
+			"userConsentDescription": "Access API as user",
+			"userConsentDisplayName": "Access API as user",
+			"value": "access_as_user"
+		}
+	],
+	"oauth2RequirePostResponse": false,
+	"optionalClaims": {
+		"idToken": [],
+		"accessToken": [],
+		"saml2Token": []
+	},
+	"orgRestrictions": [],
+	"parentalControlSettings": {
+		"countriesBlockedForMinors": [],
+		"legalAgeGroupRule": "Allow"
+	},
+	"passwordCredentials": [
+		{
+			"customKeyIdentifier": null,
+			"endDate": "2",
+			"keyId": "",
+			"startDate": "",
+			"value": null,
+			"createdOn": "",
+			"hint": "5Ms",
+			"displayName": "secret"
+		}
+	],
+	"preAuthorizedApplications": [],
+	"publisherDomain": "pioter3.onmicrosoft.com",
+	"replyUrlsWithType": [
+		{
+			"url": "/swagger/oauth2-redirect.html",
+			"type": "Web"
+		},
+		{
+			"url": "/oauth2-redirect.html",
+			"type": "Web"
+		},
+		{
+			"url": "https://localhost:5001",
+			"type": "Web"
+		}
+	],
+	"requiredResourceAccess": [
+		{
+			"resourceAppId": "00000003-0000-0000-c000-000000000000",
+			"resourceAccess": [
+				{
+					"id": "",
+					"type": "Scope"
+				},
+				{
+					"id": "",
+					"type": "Scope"
+				}
+			]
+		}
+	],
+	"samlMetadataUrl": null,
+	"signInUrl": null,
+	"signInAudience": "AzureADMyOrg",
+	"tags": [],
+	"tokenEncryptionKeyId": null
+}
